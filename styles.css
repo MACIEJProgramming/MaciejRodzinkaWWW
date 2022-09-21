@@ -1,0 +1,232 @@
+/*        Code by Maciej Rodzinka        */
+
+/*Navigation CSS code*/
+
+.titleOfNavigation{
+    text-decoration: none;
+    font-size: 200%;
+    color: rgb(5, 156, 226);
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    transition: 0.8s;
+}
+.titleOfNavigation:hover{
+    color: rgb(1, 46, 66);
+}
+.iconOfNavigation{
+    font-size: 150%;
+}
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 50px;
+  text-align: center;
+}
+
+ul li {
+	display: inline;
+	white-space: nowrap;
+    
+}
+
+ul a:link, ul a:visited {
+	text-decoration: none;
+}
+
+/*Main logo CSS code*/
+
+.mainLogo{
+    font-size: 500%;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+.mainLogoAll{
+    text-align: center;
+}
+.mainLogoDownText{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.underline {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 200%;
+    color: rgb(5, 156, 226);
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    display: inline-block;
+    padding: 2px 1px;
+    position: relative;
+    transition: 0.7s;
+  }
+  .underline:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(80, 79, 79);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .underline:hover{
+    color: rgb(1, 46, 66);
+  }
+  .underline:hover:after { 
+    width: 100%; 
+    left: 0;
+    
+  }
+  @media screen and (max-height: 100px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+
+  .contactBy{
+    text-align: center;
+  }
+  .instagramButton{
+    width: 150px;
+    height: 100px;
+    color: #FCAF45;
+    border: 2px;
+    font-size: 130%;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px;
+    transition: 0.7s;
+  }
+  .instagramButton:hover{
+    background-color: rgb(182, 179, 179);
+  }
+  .facebookButton{
+    width: 150px;
+    height: 100px;
+    color: #0165E1;
+    border: 2px;
+    font-size: 130%;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px;
+    transition: 0.7s;
+  }
+  .facebookButton:hover{
+    background-color: rgb(182, 179, 179);
+  }
+  .contactByEmailButton{
+    width: 150px;
+    height: 100px;
+    color: black;
+    border: 2px;
+    font-size: 130%;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px;
+    transition: 0.7s;
+  }
+  .contactByEmailButton:hover{
+    background-color: rgb(182, 179, 179);
+  }
+  .contactFormText{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+  }
+
+  footer{
+    text-align: center;
+    margin-top: 230px;
+    text-decoration: none;
+    position: relative;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+  }
+  .linkFooter{
+    text-decoration: none;
+    color: rgb(5, 156, 226);
+    transition: 0.8s;
+  }
+  .linkFooter:hover{
+    color: rgb(5, 156, 226);
+    color: rgb(0, 0, 0);
+  }
+
+  .underlineFooter
+  .underlineFooter {
+    text-decoration: none;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    display: inline-block;
+    padding: 2px 1px;
+    position: relative;
+    transition: 0.7s;
+  }
+  .underlineFooter:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(80, 79, 79);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .underlineFooter:hover{
+    color: rgb(1, 46, 66);
+  }
+  .underlineFooter:hover:after { 
+    width: 100%; 
+    left: 0;
+    
+  }
+  @media screen and (max-height: 100px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+
+  .mainDescriptionTextBlue{
+    color: rgb(5, 156, 226);
+    font-size: 200%;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-align: center;
+  }
+  .mainDescriptionText{
+    font-size: 200%;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    text-align: center;
+  }
+
+  .iconOfMainDescriptionText{
+    text-align: center;
+    font-size: 300%;
+  }
+  .containerIndex1{
+    text-align: center;
+  }
+
+  .HtmlContainer1{
+    color: #e34c26;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 200%;
+  }
+  .CssContainer1{
+    color:#0074d9;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 200%;
+  }
+  .lContainer1{
+    color: #684D95;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 200%;
+  }
+  .SqlContainer1{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 200%;
+  }
+
+  .createdBy{
+    font-size: 13px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+  }
