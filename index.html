@@ -2,52 +2,69 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maciej Rodzinka</title>
-    <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" type="image/jpg" href="Pictures/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
     <script src="https://kit.fontawesome.com/05deb4a480.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://css.gg/add-r.css' rel='stylesheet'>
     <link href='https://css.gg/youtube.css' rel='stylesheet'>
     <link href='https://css.gg/facebook.css' rel='stylesheet'>
     <link href='https://css.gg/instagram.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"/>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 </head>
 <body>
-    <div class="mainLogoAll">   
-        <span class="mainLogo" style="color:rgb(5, 156, 226)">Maciej </span><span class="mainLogo">Rodzinka</span>
-        <h5 class="mainLogoDownText">official website!</h5>
-    </div> 
-    <div class="nav">
-        <ul>
-            <li>
-                <a href="index.html">
-                    
-                    <span class="iconOfNavigation"><ion-icon name="home-outline"></ion-icon></span>
-                    <span class="underline">Start</span>
-                </a>
-            </li>
-            <li>
-                <a href="contactPage.html">
-                    
-                    <span class="iconOfNavigation"><ion-icon name="call-outline"></ion-icon></span>
-                    <span class="underline">Kontakt</span>
-
-                </a>          
-        </ul>      
-    </div>
+    <nav class="nav">
+        
+        <ul class="nav-items">
+            <a href="index.html"><img src="Pictures/favicon.png" alt="favicon" id="main-icon"></a>
+            <li id="nav-item"><a href="index.html" class="nav-link-a">Główna</a></li>
+            <li id="nav-item"><a href="contactPage.html" class="nav-link-a">Kontakt</a></li>
+            <li id="nav-item"><a href="youtube.html" class="nav-link-a">YouTube</a></li>
+        </ul>
+    </nav>
     <hr>
-    <div class="containerIndex1">
-        <span class="iconOfMainDescriptionText"><ion-icon name="code-slash-outline"></ion-icon></span><br>
-        <span class="mainDescriptionTextBlue">Języki</span><span class="mainDescriptionText">, w których programuję</span><br><br><br><br>   
-        <span class="HtmlContainer1">HTML</span><br>
-        <img src="htmlLogo.png" alt="Girl in a jacket" width="295" height="375"><br>
-        <span class="CssContainer1">CSS</span><br>
-        <img src="cssLogo.png" alt="Girl in a jacket" width="220" height="380"><br>
-        <span class="lContainer1">C#</span><br>
-        <img src="Csharp_Logo.png" alt="Girl in a jacket" width="340" height="340"><br>
-        <span class="SqlContainer1">SQL</span><br>
-        <img src="sqlLogo.png" alt="Girl in a jacket" width="260" height="260"><br>    
+    <div id="welcome-article">
+        <p 
+            data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="100"
+            data-aos-offset="0">
+            Wesołych Świąt!
+        </p>
     </div>
-    <hr>
+    <article class="containerIndex">
+        <span data-aos="zoom-out" data-aos-duration="100000" data-aos-offset="200" data-aos-delay="50" class="iconOfMainDescriptionText"><ion-icon name="school-outline"></ion-icon></span><br>
+        <span data-aos="zoom-out" class="mainDescriptionTextBlue">Moje</span><span class="mainDescriptionText"> zainteresowania</span><br><br><br><br>   
+        <p data-aos="zoom-out" class="name-of-school">Informatyka</p>
+        <p data-aos="zoom-out" class="name-of-school">Motoryzacja</p>
+        <p data-aos="zoom-out" class="name-of-school">Elektronika</p>
+        <p data-aos="zoom-out" class="name-of-school">Muzyka</p>
+        <p data-aos="zoom-out" class="name-of-school">Obróbka video</p>
+        <p data-aos="zoom-out" class="name-of-school">Historia</p>
+    </article>
+    <article class="containerIndex1">
+        <span data-aos="zoom-out" data-aos-duration="100000" data-aos-offset="200" data-aos-delay="50" class="iconOfMainDescriptionText"><ion-icon name="school-outline"></ion-icon></span><br>
+        <span data-aos="zoom-out" class="mainDescriptionTextBlue">Moja</span><span class="mainDescriptionText"> edukacja</span><br><br><br><br>   
+        <p data-aos="zoom-out" class="name-of-school">Szkoła podstawowa</p>
+        <p data-aos="zoom-out" class="start-a-school"><ion-icon name="checkmark-circle-outline"></ion-icon> Rozpoczęta: 1 września 2014</p>
+        <p data-aos="zoom-out" class="end-a-school"><ion-icon name="checkmark-done-circle-outline"></ion-icon> Zakończona: 24 czerwca 2022</p><br><br>
+        <ion-icon name="arrow-down-outline" class="arrow-down-school" data-aos="zoom-out"></ion-icon>
+        <p data-aos="zoom-out" class="name-of-school">Szkoła średnia</p>
+        <p data-aos="zoom-out" class="name-of-school-profile">(Technikum, profil: technik programista)</p>
+        <p data-aos="zoom-out" class="start-a-school"><ion-icon name="checkmark-circle-outline"></ion-icon> Rozpoczęta: 1 września 2022</p>
+    </article>
+    <footer>
+        <span class="socials-buttons"><a href="#" class="social-button"><ion-icon name="logo-facebook"></ion-icon></a><a href="#" class="social-button"><ion-icon name="logo-instagram"></ion-icon></a><a href="#" class="social-button"><ion-icon name="logo-youtube"></ion-icon></a></span>
+        <h2 class="createdBy">Created by Maciej Rodzinka</h2>
+        <h3>No copyright &copy 2022</h3>
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>AOS.init();</script>
+    <script src="script.js"></script>
 </body>
