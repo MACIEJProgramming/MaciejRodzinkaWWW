@@ -85,7 +85,7 @@ html{
 /* Welcome article */
 
 #welcome-article{
-  background-image: url('https://pixabay.com/get/g639a44795ee76a92baedf476a0294625f85fd6e9e9ae278801616acaa192917b720bbf5c17e10df5034d9f8d8ef7b891.jpg');
+  background-image: url('https://pixabay.com/get/g45d25cea7ede5950f1063964eefcea17892cd1dcae145995320888853fa64933736929052440283dc786dcc287022719.jpg');
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -115,7 +115,7 @@ html{
 
 @media all and (max-width:769px) {
   #welcome-article{
-    background-image: url('https://pixabay.com/get/g639a44795ee76a92baedf476a0294625f85fd6e9e9ae278801616acaa192917b720bbf5c17e10df5034d9f8d8ef7b891.jpg');
+    background-image: url('https://pixabay.com/get/g45d25cea7ede5950f1063964eefcea17892cd1dcae145995320888853fa64933736929052440283dc786dcc287022719.jpg');
     background-size: cover;
     width: 100%;
     height: 700px;
