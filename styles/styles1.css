@@ -6,6 +6,9 @@
   padding: 0;
   @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@100;300&display=swap');
 }
+*::selection {
+  background-color: #cd0303;
+}
 
 body{
   background-color: black;
