@@ -346,6 +346,17 @@ body{
     font-size: 180%;
     margin-top: 30px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 1;
+  }
+  .header-of-descriptions::before {
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 10px;
+    top: 125px;
+    background-color: #da0303;
+    box-sizing: border-box;
+    z-index: -1;
   }
   .header-of-description{
     color: aliceblue;
