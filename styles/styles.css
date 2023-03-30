@@ -1,16 +1,13 @@
 /*        Code by Maciej Rodzinka        */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:wght@100;300&display=swap');
 }
 html{
   min-height: 100%;
 }
-
 /* Navigation CSS code */
-
 .nav{
   position: fixed;
   top: 0;
@@ -18,13 +15,11 @@ html{
   background-color: rgba(0,0,0,.9);
   z-index: 100;
 }
-
 .nav .nav-items{
   display: flex;
   justify-content: center;
   list-style: none;
 }
-
 .nav #nav-item a{
   display: block;
   padding: 25px;
@@ -36,11 +31,9 @@ html{
   color: #fff;
   transition: 0.7s;
 }
-
 .nav #nav-item a:hover {
   color: rgb(101, 170, 255);
 }
-
 @media all and (max-width:769px) {
   .nav{
     position: fixed;
@@ -49,13 +42,11 @@ html{
     background-color: rgba(0, 0, 0, 0.9);
     z-index: 100;
   }
-  
   .nav .nav-items{
     display: flex;
     justify-content: center;
     list-style: none;
   }
-  
   .nav #nav-item a{
     display: block;
     padding: 10px;
@@ -68,22 +59,17 @@ html{
     color: #fff;
     transition: 0.7s;
   }
-  
   .nav #nav-item a:hover {
     color: rgb(101, 170, 255);
   }
 }
-
 /* Main logo CSS code */
-
 #main-icon{
   width: 60px;
   height: 60px;
   margin-top: 5px;
 }
-
 /* Welcome article */
-
 #welcome-article{
   background-image: url('../Pictures/NY.jpg');
   background-size: cover;
@@ -97,7 +83,6 @@ html{
   align-items: center;
   position: relative;
 }
-
 #welcome-article::before{
   position: absolute;
   top: 0;
@@ -107,12 +92,10 @@ html{
   background-color: rgba(0, 0, 0, 0.6);
   content: '';
 }
-
 #welcome-article p{
   font-weight: 100;
   z-index: 5;
 }
-
 @media all and (max-width:769px) {
   #welcome-article{
     background-image: url('../Pictures/NY.jpg');
@@ -143,9 +126,7 @@ html{
     z-index: 5;
   }
 }
-
 /* Other elements */
-
 .underline {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -182,7 +163,6 @@ html{
           margin-top: 40px;
       }
   }
-
   .contactBy{
     margin-top: 210px;
     text-align: center;
@@ -232,7 +212,6 @@ html{
   .contactFormText{
     font-family: 'Alumni Sans Pinstripe', sans-serif;
   }
-
   footer{
     text-align: center;
     margin-top: 230px;
@@ -251,7 +230,6 @@ html{
     color: rgb(5, 156, 226);
     color: rgb(0, 0, 0);
   }
-
   .socials-buttons{
     font-size: 300%;
     margin-top: 20px;
@@ -264,14 +242,17 @@ html{
     padding: 10px;
     color: #383838;
     text-decoration: none;
+    transition: 1s;
   }
-
+  .social-button:hover {
+    margin-bottom: 15px;
+    color: #141313;
+  }
   @media screen and (max-height: 100px) {
       ul {
           margin-top: 40px;
       }
   }
-
   .mainDescriptionTextBlue{
     color: rgb(5, 156, 226);
     font-size: 200%;
@@ -283,66 +264,61 @@ html{
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     text-align: center;
   }
-
   .iconOfMainDescriptionText{
     text-align: center;
     font-size: 300%;
   }
-  
   /* Articles */
-
-  .containerIndex{
+  .containerIndex {
     text-align: center;
     padding: 50px;
   }
-
-  .containerIndex1{
+  .containerIndex1 {
     text-align: center;
   }
-
-  .name-of-school{
+  .name-of-school {
     color: #383838;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 220%;
   }
-  .start-a-school{
+  .start-a-school {
     color: #09ff00;
     font-size: 140%;
     font-family: 'Work Sans', sans-serif;
   }
-  .end-a-school{
+  .end-a-school {
     color: #ff0000;
     font-size: 140%;
     font-family: 'Work Sans', sans-serif;
   
   }
-  .arrow-down-school{
+  .arrow-down-school {
     font-size: 160%;
   }
-  .name-of-school-profile{
+  .name-of-school-profile {
     font-family: 'Work Sans', sans-serif;
   }
 
-  .createdBy{
+  .createdBy {
     font-size: 13px;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     margin-top: 40px;
   }
-  .SMIcon{
+  .SMIcon {
     width: 70px;
     height: 70px;
   }
-  .icon{
+  .icon {
     width: 24px;
     height: 24px;
     margin-right: 1px;
   }
-  #youtube-button{
+  #youtube-button {
     background-image: url("Pictures/zdjęcie.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  .line-1{
+  .line-1 {
   position: relative;
   top: 50%;  
   width: 24em;

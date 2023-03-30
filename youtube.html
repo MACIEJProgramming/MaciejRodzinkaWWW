@@ -1,86 +1,155 @@
 <!DOCTYPE html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIGAHERTZ</title>
-    <link rel="shortcut icon" type="image/jpg" href="Pictures/favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="styles/styles1.css">
-    <script src="https://kit.fontawesome.com/05deb4a480.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href='https://css.gg/add-r.css' rel='stylesheet'>
-    <link href='https://css.gg/youtube.css' rel='stylesheet'>
-    <link href='https://css.gg/facebook.css' rel='stylesheet'>
-    <link href='https://css.gg/instagram.css' rel='stylesheet'>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-</head>
-<body>
-    <nav class="nav">
-        <ul class="nav-items">
-            <a href="index.html"><img src="Pictures/favicon.png" alt="favicon" id="main-icon"></a>
-            <li id="nav-item"><a href="index.html" class="nav-link-a">Główna</a></li>
-            <li id="nav-item"><a href="contactPage.html" class="nav-link-a">Kontakt</a></li>
-            <li id="nav-item"><a href="youtube.html" class="nav-link-a">YouTube</a></li>
-        </ul>
-    </nav>
-    <div id="youtube-button">
-        
-        <div data-aos="fade-up">
-            <img src="Pictures/gigahertz.png" alt="YouTube zdjęcie profilowe" class="youtube-profile-photo">
-            <p class="youtube-name">GIGAHERTZ</p>
+<html lang="pl-PL">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GIGAHERTZ</title>
+        <link rel="shortcut icon" type="image/jpg" href="Pictures/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="styles/styles1.css">
+        <script src="https://kit.fontawesome.com/05deb4a480.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </head>
+    <body>
+        <nav class="nav">
+            <ul class="nav-items">
+                <a href="youtube.html"><img src="Pictures/favicon.png" alt="favicon" id="main-icon"></a>
+                <li id="nav-item"><a href="index.html" class="nav-link-a">Główna</a></li>
+                <li id="nav-item"><a href="contactPage.html" class="nav-link-a">Kontakt</a></li>
+                <li id="nav-item"><a href="youtube.html" class="nav-link-a">YouTube</a></li>
+            </ul>
+        </nav>
+        <div id="youtube-button">
+
+            <div data-aos="fade-up">
+                <img src="Pictures/gigahertz.png" alt="YouTube zdjęcie profilowe" class="youtube-profile-photo">
+                <p class="youtube-name">GIGAHERTZ</p>
+            </div>
+            <form action="https://www.youtube.com/@GIGAHERTZ./featured" class="YT-link-form" target="_blank">
+                <button type="submit" class="YT-link-button" data-aos="fade-up">Przejdź na kanał</button>
+            </form>
+            <div id="yt-link-div1-main">
+                <div data-aos="fade-up" class="yt-link-div1">
+                    <ion-icon name="receipt-outline" class="informations-icon"></ion-icon>
+                    <p class="header-of-descriptions">Kilka informacji o kanale</p>
+                </div>
+                <div data-aos="fade-up" class="yt-link-div1">
+                    <p class="header-of-description">Jakie tematy poruszam na kanale?</p>
+                    <p class="text-of-descripion">GIGAHERTZ - to kanał, na którym omnieszczam materiały, dotyczące głównie ogólnopojętej technologii, <br> a więc komputerów, systemów operacyjnych, oprogramowania itp.</p>
+                </div>
+                <div data-aos="fade-up" class="yt-link-div1">
+                    <p class="header-of-description">Kiedy publikuję materiały?</p>
+                    <p class="text-of-descripion">Filmy publikuję w wolnym czasie, a tego wciąż brakuje.</p>
+                </div>
+            </div>
+            <div id="yt-link-div2-main">
+                <div data-aos="fade-up" class="yt-link-div2">
+                    <ion-icon name="desktop-outline" class="informations-icon"></ion-icon>
+                    <p class="header-of-descriptions">Sprzęt, którego używam</p>
+                </div>
+                <div data-aos="fade-up" class="yt-link-div2">
+                    <p class="header-of-description">Sprzęt do nagrywania</p>
+                    <a href="https://www.panasonic.com/pl/consumer/archive/kamery-i-aparaty/dmc-gh4eg.html" target="_blank" class="description-link">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/camera.png" alt="camera image" class="component-image">
+                            <p class="text-of-descripion">Aparat</p>
+                        </div>
+                    </a>
+                    <a href="https://www.ceneo.pl/29079491" target="_blank" class="description-link">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/lens.png" alt="lens image" class="component-image">
+                            <p class="text-of-descripion">Obiektyw</p>
+                        </div>
+                    </a>
+                </div>
+                <div data-aos="fade-up" class="yt-link-div2">
+                    <p class="header-of-description">Sprzęt audio</p>
+                    <a href="https://www.behringer.com/product.html?modelCode=P0AUX" target="_blank" class="description-link">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/interface.png" alt="audio interface image" class="component-image">
+                            <p class="text-of-descripion">Interfejs audio</p>
+                        </div>
+                    </a>
+                    <a href="https://www.behringer.com/product.html?modelCode=P0120" target="_blank" class="description-link">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/microphone.png" alt="microphone image" class="component-image">
+                            <p class="text-of-descripion">Mikrofon</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="yt-link-div2">
+                    <p data-aos="fade-up" class="header-of-description">Komputer</p>
+                    <a href="https://www.ceneo.pl/98430083" target="_blank" class="description-link">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/cpu.png" alt="processor image" class="component-image">
+                            <p class="text-of-descripion">Procesor</p>
+                        </div>
+                    </a>
+                    <a href="https://www.ceneo.pl/70163020" target="_blank" class="description-link1">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/mb.png" alt="motherboard image" class="component-image">
+                            <p class="text-of-descripion">Płyta główna</p>
+                        </div>
+                    </a>
+                    <a href="https://www.ceneo.pl/104724546" target="_blank" class="description-link2">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/ram.png" alt="ram image" class="component-image">
+                            <p class="text-of-descripion">Pamięć RAM</p>
+                        </div>
+                    </a>
+                    <a href="https://www.ceneo.pl/45343144" target="_blank" class="description-link3">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/gpu.png" alt="graphics card image" class="component-image">
+                            <p class="text-of-descripion">Karta graficzna</p>
+                        </div>
+                    </a>
+                    <a href="https://www.ceneo.pl/82714810" target="_blank" class="description-link4">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/ssd.png" alt="first disc image" class="component-image">
+                            <p class="text-of-descripion">Dysk systemowy</p>
+                        </div>
+                    </a>
+                    <a href="https://www.ceneo.pl/105300716" target="_blank" class="description-link5">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/ssd.png" alt="secoond disc image" class="component-image">
+                            <p class="text-of-descripion">Dysk dodatkowy</p>
+                        </div>
+                    </a>
+                    <a href="https://www.ceneo.pl/91774966" target="_blank" class="description-link6">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/case.png" alt="pc case image" class="component-image">
+                            <p class="text-of-descripion">Obudowa</p>
+                        </div>
+                    </a>
+                    <a href="https://www.ceneo.pl/91935649" target="_blank" class="description-link7">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/cooler.png" alt="processsor cooler image" class="component-image">
+                            <p class="text-of-descripion">Chłodzenie</p>
+                        </div>
+                    </a>
+                    <a href="https://www.ceneo.pl/97589512" target="_blank" class="description-link8">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/psu.png" alt="power supply image" class="component-image">
+                            <p class="text-of-descripion">Zasilacz</p>
+                        </div>
+                    </a>                                                     
+                    <a href="https://www.morele.net/system-operacyjny-microsoft-windows-11-pro-pl-64-bit-box-hav-00209-10118776/" target="_blank" class="description-link9">
+                        <div class="component-div" data-aos="fade-up">
+                            <img src="Pictures/os.png" alt="operating system image" class="component-image">
+                            <p class="text-of-descripion">System operacyjny</p>
+                        </div>
+                    </a>     
+                </div>
+            </div>
         </div>
-        <form action="https://www.youtube.com/@GIGAHERTZ./featured" class="YT-link-form" target="_blank">
-            <button type="submit" class="YT-link-button" data-aos="fade-up">Przejdź na kanał</button>
-        </form>
-        <div id="yt-link-div1-main">
-            <div data-aos="fade-up" class="yt-link-div1">
-                <ion-icon name="receipt-outline" class="informations-icon"></ion-icon>
-                <p class="header-of-descriptions">Kilka informacji o kanale</p>
-            </div>
-            <div data-aos="fade-up" class="yt-link-div1">
-                <p class="header-of-description">Jakie tematy poruszam na kanale?</p>
-                <p class="text-of-descripion">GIGAHERTZ - to kanał, na którym omnieszczam materiały, dotyczące głównie ogólnopojętej technologii, a więc komputerów, systemów operacyjnych, oprogramowania itp.</p>
-            </div>
-            <div data-aos="fade-up" class="yt-link-div1">
-                <p class="header-of-description">Kiedy publikuję materiały?</p>
-                <p class="text-of-descripion">Filmy publikuję w wolnym czasie, a tego wciąż brakuje.</p>
-            </div>
-        </div>
-        <div id="yt-link-div2-main">
-            <div data-aos="fade-up" class="yt-link-div2">
-                <ion-icon name="desktop-outline" class="informations-icon"></ion-icon>
-                <p class="header-of-descriptions">Sprzęt, którego używam</p>
-            </div>
-            <div data-aos="fade-up" class="yt-link-div2">
-                <p class="header-of-description">Czym nagrywam?</p>
-                <p class="text-of-descripion">Filmy nagrywam swoim smartfonem <a href="https://mi-home.pl/mi-9-lite-6gb-128gb-onyx-grey" target="_blank" class="description-link">Xiaomi mi9 Lite</a>. Pozwala on na nagrywanie w 4k/30fps.</p>
-            </div>
-            <div data-aos="fade-up" class="yt-link-div2">
-                <p class="header-of-description">Sprzęt audio</p>
-                <p class="text-of-descripion">Interfejs audio: <a href="https://www.behringer.com/product.html?modelCode=P0AUX" target="_blank" class="description-link">behringer u-phoria UMC22</a></p>
-                <p class="text-of-descripion">Mikrofon: <a href="https://www.behringer.com/product.html?modelCode=P0120" target="_blank" class="description-link">behringer ULTRAVOICE XM8500</a></p>
-            </div>
-        
-            <div data-aos="fade-up" class="yt-link-div2">
-                <p class="header-of-description">Komputer</p>
-                <p class="text-of-descripion">Procesor: <a href="https://www.ceneo.pl/98430083" target="_blank" class="description-link">AMD Ryzen 5 5600x</a></p>
-                <p class="text-of-descripion">Płyta główna: <a href="https://www.ceneo.pl/70163020" target="_blank" class="description-link">GIGABYTE Aorus B450 Elite</a></p>
-                <p class="text-of-descripion">Pamięć RAM: <a href="https://www.ceneo.pl/104724546" target="_blank" class="description-link">Adata D10 2x 8GB 3200MHz</a></p>
-                <p class="text-of-descripion">Karta graficzna: <a href="https://www.ceneo.pl/45343144" target="_blank" class="description-link">NVIDIA GEFORCE GTX 1070 GIGABYTE WINDFORCE OC</a></p>
-                <p class="text-of-descripion">Dysk systemowy: <a href="https://www.ceneo.pl/82714810" target="_blank" class="description-link">ADATA SPECTRIX S40G Rgb 512GB</a></p>
-                <p class="text-of-descripion">Dysk dodatkowy: <a href="https://www.ceneo.pl/93892881" target="_blank" class="description-link">GOODRAM CL100 120GB</a></p>
-                <p class="text-of-descripion">Obudowa: <a href="https://www.ceneo.pl/91774966" target="_blank" class="description-link">SPC Signum SG1V EVO TG ARGB</a></p>
-                <p class="text-of-descripion">Chłodzenie: <a href="https://www.ceneo.pl/91935649" target="_blank" class="description-link">Arctic Freezer 34 Esports Duo Grey</a></p>
-                <p class="text-of-descripion">Zasilacz: <a href="https://www.ceneo.pl/97589512" target="_blank" class="description-link">Corsair CX650F RGB 80 Plus Bronze</a></p>
-                <p class="text-of-descripion">System operacyjny: <a href="https://www.morele.net/system-operacyjny-microsoft-windows-11-pro-pl-64-bit-box-hav-00209-10118776/" target="_blank" class="description-link">Microsoft Windows 11 Pro</a></p>
-            </div>
-        </div>
-    </div>
-    <footer>
-        <span class="socials-buttons"><a href="https://www.facebook.com/maciej.mielec/" class="social-button" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a><a href="https://www.instagram.com/maciejrodzinka228/" class="social-button" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a><a href="https://www.youtube.com/@GIGAHERTZ./featured" class="social-button" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></span>
-        <br>
-        <h5>&copy 2023 Maciej Rodzinka. All rights reserved</h5>
-    </footer>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    <script>AOS.init();</script>
-</body>
+        <footer>
+            <span class="socials-buttons"><a href="https://www.facebook.com/maciej.mielec/" class="social-button" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a><a href="https://www.instagram.com/maciejrodzinka228/" class="social-button" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a><a href="https://www.youtube.com/@GIGAHERTZ./featured" class="social-button" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></span>
+            <br>
+            <h5>&copy 2023 Maciej Rodzinka. All rights reserved</h5>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script>AOS.init();</script>
+    </body>
+</html>
