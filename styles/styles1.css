@@ -23,7 +23,7 @@ body{
   justify-content: center;
   list-style: none;
 }
-.nav #nav-item a{
+.nav .nav-item a{
   display: block;
   padding: 25px;
   font-size: 18px;
@@ -34,7 +34,7 @@ body{
   color: #fff;
   transition: 0.7s;
 }
-.nav #nav-item a:hover {
+.nav .nav-item a:hover {
   color: #da0303;
 }
 @media all and (max-width:769px) {
@@ -50,7 +50,7 @@ body{
     justify-content: center;
     list-style: none;
   }
-  .nav #nav-item a{
+  .nav .nav-item a{
     display: block;
     margin-top: 15px;
     padding: 10px;
@@ -63,8 +63,8 @@ body{
     color: #fff;
     transition: 0.7s;
   }
-  .nav #nav-item a:hover {
-    color: rgb(101, 170, 255);
+  .nav .nav-item a:hover {
+    color: #da0303;
   }
 }
 /* Main logo CSS code */
