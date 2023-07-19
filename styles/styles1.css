@@ -1,29 +1,35 @@
 /*        Code by Maciej Rodzinka        */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
+
+* {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
+
 *::selection {
   background-color: #cd0303;
 }
-body{
+
+body {
   background-color: rgb(0, 0, 0);
 }
+
 /* Navigation CSS code */
-.nav{
+.nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0,0,0,.9);
+  background-color: rgba(0, 0, 0, .9);
   z-index: 100;
 }
-.nav .nav-items{
+
+.nav .nav-items {
   display: flex;
   justify-content: center;
   list-style: none;
 }
-.nav .nav-item a{
+
+.nav .nav-item a {
   display: block;
   padding: 25px;
   font-size: 18px;
@@ -34,23 +40,27 @@ body{
   color: #fff;
   transition: 0.7s;
 }
+
 .nav .nav-item a:hover {
   color: #da0303;
 }
+
 @media all and (max-width:769px) {
-  .nav{
+  .nav {
     position: fixed;
     top: 0;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.9);
     z-index: 100;
   }
-  .nav .nav-items{
+
+  .nav .nav-items {
     display: flex;
     justify-content: center;
     list-style: none;
   }
-  .nav .nav-item a{
+
+  .nav .nav-item a {
     display: block;
     margin-top: 15px;
     padding: 10px;
@@ -63,635 +73,739 @@ body{
     color: #fff;
     transition: 0.7s;
   }
+
   .nav .nav-item a:hover {
     color: #da0303;
   }
 }
+
 /* Main logo CSS code */
-#main-icon{
+#main-icon {
   width: 60px;
   height: 60px;
   margin-top: 5px;
 }
-  .underline {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 200%;
-    color: #FF0000;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    display: inline-block;
-    padding: 2px 1px;
-    position: relative;
-    transition: 0.7s;
-  }
-  .underline:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    background: rgb(80, 79, 79);
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-  }
-  .underline:hover{
-    color: rgb(1, 46, 66);
-  }
-  .underline:hover:after {
-    width: 100%;
-    left: 0;
 
-  }
-  @media screen and (max-height: 100px) {
-      ul {
-          margin-top: 40px;
-      }
-  }
-  .contactBy{
-    text-align: center;
-  }
-  .instagramButton{
-    width: 150px;
-    height: 100px;
-    color: #FCAF45;
-    border: 2px;
-    font-size: 130%;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 3px 3px 5px;
-    transition: 0.7s;
-  }
-  .instagramButton:hover{
-    background-color: rgb(182, 179, 179);
-  }
-  .facebookButton{
-    width: 150px;
-    height: 100px;
-    color: #0165E1;
-    border: 2px;
-    font-size: 130%;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 3px 3px 5px;
-    transition: 0.7s;
-  }
-  .facebookButton:hover{
-    background-color: rgb(182, 179, 179);
-  }
-  .contactByEmailButton{
-    width: 150px;
-    height: 100px;
-    color: black;
-    border: 2px;
-    font-size: 130%;
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: 3px 3px 5px;
-    transition: 0.7s;
-  }
-  .contactByEmailButton:hover{
-    background-color: rgb(182, 179, 179);
-  }
-  .contactFormText{
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-  }
-  footer{
-    text-align: center;
-    margin-top: 2400px;
-    text-decoration: none;
-    position: absolute;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    background-color: #0165E1;
-    height: 200px;
-    width: 100%;
-  }
-  .linkFooter{
-    text-decoration: none;
-    color: rgb(5, 156, 226);
-    transition: 0.8s;
-  }
-  .linkFooter:hover{
-    color: rgb(5, 156, 226);
-    color: rgb(0, 0, 0);
-  }
-  .socials-buttons{
-    font-size: 300%;
-    margin-top: 20px;
-    padding: 20px;
-    display: block;
-    color: #383838;
-    text-decoration: none;
-  }
-  .social-button{
-    padding: 10px;
-    color: #383838;
-    text-decoration: none;
-    transition: 1s;
-  }
-  .social-button:hover {
-    margin-bottom: 15px;
-    color: #141313;
-  }
-  @media screen and (max-height: 100px) {
-      ul {
-          margin-top: 40px;
-      }
-  }
-  .mainDescriptionTextBlue{
-    color: rgb(5, 156, 226);
-    font-size: 200%;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    text-align: center;
-  }
-  .mainDescriptionText{
-    font-size: 200%;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    text-align: center;
-  }
-  .iconOfMainDescriptionText{
-    text-align: center;
-    font-size: 300%;
-  }
-  .containerIndex1{
-    text-align: center;
-  }
-  .HtmlContainer1{
-    color: #e34c26;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-size: 200%;
-  }
-  .CssContainer1{
-    color:#0074d9;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-size: 200%;
-  }
-  .lContainer1{
-    color: #684D95;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-size: 200%;
-  }
-  .SqlContainer1{
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    font-size: 200%;
-  }
-  .createdBy{
-    font-size: 13px;
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-  }
-  .SMIcon{
-    width: 70px;
-    height: 70px;
-  }
-  .icon{
-    width: 24px;
-    height: 24px;
-    margin-right: 1px;
-  }
-  #youtube-button{
-    background-color: rgba(16, 16, 16, 0);
-    width: 100%;
-    height: 2500px;
-    margin-top: 110px;
-  }
-  .youtube-main-text{
-    color: aliceblue;
-    font-family: Roboto, Arial, sans-serif;
-    text-align: center;
-    font-size: 400%;
-  }
-  .youtube-profile-photo{
-    margin-left: 37%;
-    border-radius: 100%;
-    width: 25%;
-  }
-  @media all and (max-width:769px) {
-    .youtube-profile-photo {
-      margin-left: 16%;
-      border-radius: 100%;
-      width: 70%;
-    }
-  }
-  .youtube-name{
-    color: aliceblue;
-    text-align: center;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 150%;
-  }
-  .yt-link-div{
-    text-align: center;
-    width: 100%;
-    margin-top: 100px;
-    background-color: rgb(0, 0, 0);
-  }
-  .yt-link-div1{
-    text-align: center;
-    width: 100%;
-    margin-top: 100px;
-  }
-  .yt-link-div2{
-    text-align: center;
-    width: 100%;
-    margin-top: 100px;
-  }
-  #yt-link-div1-main{
-    background-color: rgb(0, 0, 0);
-    padding-bottom: 50px;
-    padding-top: 5px;
-    margin-top: 0px;
-  }
-  #yt-link-div2-main{
-    background-color: rgb(0, 0, 0);
-    padding: 5px;
-    margin-top: 80px;
-  }
-  .yt-link{
-    text-decoration: none;
-    font-size: 240%;
-    color: rgb(166, 249, 255);
-    margin-bottom: 100px;
-    transition: 2s;
-  }
-  .yt-link:hover{
-    text-decoration: underline;
-    color: rgb(225, 253, 255);
-  }
-  .yt-link-icon{
-    font-size: 50%;
-  }
-  .yt-video{
-    width: 80%;
-    height: 30%;
-  }
-  .header-of-descriptions{
-    color: aliceblue;
-    font-size: 180%;
-    margin-top: 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    z-index: 1;
-  }
-  .header-of-descriptions::before {
-    content: '';
-    position: absolute;
-    width: 180px;
-    height: 10px;
-    top: 125px;
-    background-color: #da0303;
-    box-sizing: border-box;
-    z-index: -1;
-  }
-  .header-of-description {
-    color: aliceblue;
-    font-size: 150%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 20px;
-  }
-  .text-of-descripion {
-    color: rgb(216, 217, 217);
-    font-family: 'Alumni Sans Pinstripe', sans-serif;
-    margin-top: 2%;
-  }
-  .informations-icon {
-    color: #da0303;
-    font-size: 400%;
-  }
-  .description-link {
-    display: block;
-    margin: 0 auto;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .description-link1{
-    width: 40%;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    transition: 1.5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .description-link2{
-    width: 40%;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    transition: 1.5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .description-link3{
-    width: 40%;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    transition: 1.5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .description-link4{
-    width: 40%;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    transition: 1.5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .description-link5{
-    width: 40%;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    transition: 1.5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .description-link6{
-    width: 40%;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    transition: 1.5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .description-link7{
-    width: 40%;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    transition: 1.5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .description-link8{
-    width: 40%;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    transition: 1.5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: relative;
-  }
-  .description-link9{
-    width: 40%;
-    color: #ca0303;
-    text-decoration: none;
-    font-size: 110%;
-    transition: 1.5s;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
-  .YT-link-button {
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 300px;
-    height: 60px;
-    background-color: #a80000;
-    color: aliceblue;
-    border-radius: 8px;
-    padding: 10px;
-    font-size: 130%;
-    cursor: pointer;
-    transition: 0.3s;
-    border: 2px rgba(255, 0, 0, 0.346) solid;
-    overflow: hidden;
-    z-index: 1;
-  }
-  .YT-link-button::after {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background-color: #890505;
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    right: -100%;
-    transition: .2s ease-in-out;
-  }
-  .YT-link-button:hover::after {
-    transform: translateX(-100%);
-  }
-  @media all and (max-width:769px) {
-    .YT-link-button {
-      width: 200px;
-      height: 50px;
-    }
-  }
-  .YT-link-form {
-    justify-content: center;
-    display: flex;
-    align-items: center;
+.underline {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 200%;
+  color: #FF0000;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  display: inline-block;
+  padding: 2px 1px;
+  position: relative;
+  transition: 0.7s;
+}
+
+.underline:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(80, 79, 79);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.underline:hover {
+  color: rgb(1, 46, 66);
+}
+
+.underline:hover:after {
+  width: 100%;
+  left: 0;
+
+}
+
+@media screen and (max-height: 100px) {
+  ul {
     margin-top: 40px;
   }
+}
+
+.contactBy {
+  text-align: center;
+}
+
+.instagramButton {
+  width: 150px;
+  height: 100px;
+  color: #FCAF45;
+  border: 2px;
+  font-size: 130%;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px;
+  transition: 0.7s;
+}
+
+.instagramButton:hover {
+  background-color: rgb(182, 179, 179);
+}
+
+.facebookButton {
+  width: 150px;
+  height: 100px;
+  color: #0165E1;
+  border: 2px;
+  font-size: 130%;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px;
+  transition: 0.7s;
+}
+
+.facebookButton:hover {
+  background-color: rgb(182, 179, 179);
+}
+
+.contactByEmailButton {
+  width: 150px;
+  height: 100px;
+  color: black;
+  border: 2px;
+  font-size: 130%;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px;
+  transition: 0.7s;
+}
+
+.contactByEmailButton:hover {
+  background-color: rgb(182, 179, 179);
+}
+
+.contactFormText {
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2400px;
+  text-decoration: none;
+  position: absolute;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  background-color: #0165E1;
+  height: 200px;
+  width: 100%;
+}
+
+.linkFooter {
+  text-decoration: none;
+  color: rgb(5, 156, 226);
+  transition: 0.8s;
+}
+
+.linkFooter:hover {
+  color: rgb(5, 156, 226);
+  color: rgb(0, 0, 0);
+}
+
+.socials-buttons {
+  font-size: 300%;
+  margin-top: 20px;
+  padding: 20px;
+  display: block;
+  color: #383838;
+  text-decoration: none;
+}
+
+.social-button {
+  padding: 10px;
+  color: #383838;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.social-button:hover {
+  margin-bottom: 15px;
+  color: #141313;
+}
+
+@media screen and (max-height: 100px) {
+  ul {
+    margin-top: 40px;
+  }
+}
+
+.mainDescriptionTextBlue {
+  color: rgb(5, 156, 226);
+  font-size: 200%;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  text-align: center;
+}
+
+.mainDescriptionText {
+  font-size: 200%;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  text-align: center;
+}
+
+.iconOfMainDescriptionText {
+  text-align: center;
+  font-size: 300%;
+}
+
+.containerIndex1 {
+  text-align: center;
+}
+
+.HtmlContainer1 {
+  color: #e34c26;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: 200%;
+}
+
+.CssContainer1 {
+  color: #0074d9;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: 200%;
+}
+
+.lContainer1 {
+  color: #684D95;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: 200%;
+}
+
+.SqlContainer1 {
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  font-size: 200%;
+}
+
+.createdBy {
+  font-size: 13px;
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.SMIcon {
+  width: 70px;
+  height: 70px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 1px;
+}
+
+#youtube-button {
+  background-color: rgba(16, 16, 16, 0);
+  width: 100%;
+  height: 2500px;
+  margin-top: 110px;
+}
+
+.youtube-main-text {
+  color: aliceblue;
+  font-family: Roboto, Arial, sans-serif;
+  text-align: center;
+  font-size: 400%;
+}
+
+.youtube-profile-photo {
+  margin-left: 37%;
+  border-radius: 100%;
+  width: 25%;
+}
+
+@media all and (max-width:769px) {
+  .youtube-profile-photo {
+    margin-left: 16%;
+    border-radius: 100%;
+    width: 70%;
+  }
+}
+
+.youtube-name {
+  color: aliceblue;
+  text-align: center;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 150%;
+}
+
+.yt-link-div {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  background-color: rgb(0, 0, 0);
+}
+
+.yt-link-div1 {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.yt-link-div2 {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+#yt-link-div1-main {
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 50px;
+  padding-top: 5px;
+  margin-top: 0px;
+}
+
+#yt-link-div2-main {
+  background-color: rgb(0, 0, 0);
+  padding: 5px;
+  margin-top: 80px;
+}
+
+.yt-link {
+  text-decoration: none;
+  font-size: 240%;
+  color: rgb(166, 249, 255);
+  margin-bottom: 100px;
+  transition: 2s;
+}
+
+.yt-link:hover {
+  text-decoration: underline;
+  color: rgb(225, 253, 255);
+}
+
+.yt-link-icon {
+  font-size: 50%;
+}
+
+.yt-video {
+  width: 80%;
+  height: 30%;
+}
+
+.header-of-descriptions {
+  color: aliceblue;
+  font-size: 180%;
+  margin-top: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 1;
+}
+
+.header-of-descriptions::before {
+  content: '';
+  position: absolute;
+  width: 180px;
+  height: 10px;
+  top: 125px;
+  background-color: #da0303;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+.header-of-description {
+  color: aliceblue;
+  font-size: 150%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 20px;
+}
+
+.text-of-descripion {
+  color: rgb(216, 217, 217);
+  font-family: 'Alumni Sans Pinstripe', sans-serif;
+  margin-top: 2%;
+}
+
+.informations-icon {
+  color: #da0303;
+  font-size: 400%;
+}
+
+.description-link {
+  display: block;
+  margin: 0 auto;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description-link1 {
+  width: 40%;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  transition: 1.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description-link2 {
+  width: 40%;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  transition: 1.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description-link3 {
+  width: 40%;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  transition: 1.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description-link4 {
+  width: 40%;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  transition: 1.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description-link5 {
+  width: 40%;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  transition: 1.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description-link6 {
+  width: 40%;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  transition: 1.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description-link7 {
+  width: 40%;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  transition: 1.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.description-link8 {
+  width: 40%;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  transition: 1.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: relative;
+}
+
+.description-link9 {
+  width: 40%;
+  color: #ca0303;
+  text-decoration: none;
+  font-size: 110%;
+  transition: 1.5s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.YT-link-button {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 300px;
+  height: 60px;
+  background-color: #a80000;
+  color: aliceblue;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 130%;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px rgba(255, 0, 0, 0.346) solid;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.YT-link-button::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #890505;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: -100%;
+  transition: .2s ease-in-out;
+}
+
+.YT-link-button:hover::after {
+  transform: translateX(-100%);
+}
+
+@media all and (max-width:769px) {
+  .YT-link-button {
+    width: 200px;
+    height: 50px;
+  }
+}
+
+.YT-link-form {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#ryzen-image {
+  width: 500px;
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+}
+
+#ryzen-image::before {
+  content: 'AMD Ryzen 5 5600x';
+  color: whitesmoke;
+  margin-left: 10px;
+  position: absolute;
+}
+
+#mb-image {
+  width: 450px;
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 70%;
+}
+
+#ram-image {
+  width: 450px;
+  position: relative;
+  display: flex;
+  margin-top: 50px;
+}
+
+#gc-image {
+  width: 450px;
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 70%;
+}
+
+#m2ssd-image {
+  width: 400px;
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+}
+
+#ssd-image {
+  width: 400px;
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 70%;
+}
+
+#case-image {
+  width: 500px;
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+}
+
+#cooler-image {
+  width: 500px;
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 70%;
+}
+
+#ps-image {
+  width: 400px;
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+}
+
+@media all and (max-width:1305px) {
   #ryzen-image {
-    width: 500px;
+    width: 300px;
     position: relative;
     display: flex;
     margin-top: 50px;
   }
-  #ryzen-image::before {
-    content: 'AMD Ryzen 5 5600x';
-    color: whitesmoke;
-    margin-left: 10px;
-    position: absolute;
-  }
+
   #mb-image {
-    width: 450px;
+    width: 200px;
     position: relative;
     display: flex;
     margin-top: 50px;
     margin-left: 70%;
   }
+
   #ram-image {
-    width: 450px;
+    width: 200px;
     position: relative;
     display: flex;
     margin-top: 50px;
   }
+
   #gc-image {
-    width: 450px;
+    width: 200px;
     position: relative;
     display: flex;
     margin-top: 100px;
     margin-left: 70%;
   }
+
   #m2ssd-image {
-    width: 400px;
+    width: 250px;
     position: relative;
     display: flex;
     margin-top: 100px;
   }
+
   #ssd-image {
-    width: 400px;
+    width: 250px;
     position: relative;
     display: flex;
     margin-top: 100px;
     margin-left: 70%;
   }
+
   #case-image {
-    width: 500px;
+    width: 250px;
     position: relative;
     display: flex;
     margin-top: 100px;
   }
+
   #cooler-image {
-    width: 500px;
+    width: 250px;
     position: relative;
     display: flex;
     margin-top: 100px;
     margin-left: 70%;
   }
+
   #ps-image {
-    width: 400px;
+    width: 250px;
     position: relative;
     display: flex;
     margin-top: 100px;
   }
-  @media all and (max-width:1305px) {
-    #ryzen-image {
-      width: 300px;
-      position: relative;
-      display: flex;
-      margin-top: 50px;
-    }
-    #mb-image {
-      width: 200px;
-      position: relative;
-      display: flex;
-      margin-top: 50px;
-      margin-left: 70%;
-    }
-    #ram-image {
-      width: 200px;
-      position: relative;
-      display: flex;
-      margin-top: 50px;
-    }
-    #gc-image {
-      width: 200px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-      margin-left: 70%;
-    }
-    #m2ssd-image {
-      width: 250px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-    }
-    #ssd-image {
-      width: 250px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-      margin-left: 70%;
-    }
-    #case-image {
-      width: 250px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-    }
-    #cooler-image {
-      width: 250px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-      margin-left: 70%;
-    }
-    #ps-image {
-      width: 250px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-    }
-  }
-  @media all and (max-width:715px) {
-    #ryzen-image {
-      width: 300px;
-      position: relative;
-      display: flex;
-      margin-top: 50px;
-    }
-    #mb-image {
-      width: 200px;
-      position: relative;
-      display: flex;
-      margin-top: 50px;
-      margin-left: 50%;
-    }
-    #ram-image {
-      width: 200px;
-      position: relative;
-      display: flex;
-      margin-top: 50px;
-    }
-    #gc-image {
-      width: 200px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-      margin-left: 40%;
-    }
-    #m2ssd-image {
-      width: 200px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-    }
-    #ssd-image {
-      width: 200px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-      margin-left: 30%;
-    }
-    #case-image {
-      width: 250px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-    }
-    #cooler-image {
-      width: 250px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-      margin-left: 35%;
-    }
-    #ps-image {
-      width: 200px;
-      position: relative;
-      display: flex;
-      margin-top: 100px;
-    }
-  }
-  .picture-area {
-    width: 100%;
+}
+
+@media all and (max-width:715px) {
+  #ryzen-image {
+    width: 300px;
+    position: relative;
     display: flex;
-    height: 200px;
+    margin-top: 50px;
   }
-  .filled-pic-div {
-    width: 20%;
+
+  #mb-image {
+    width: 200px;
+    position: relative;
     display: flex;
-    justify-content: center;
+    margin-top: 50px;
+    margin-left: 50%;
   }
-  .blank-pic-div {
-    width: 80%;
+
+  #ram-image {
+    width: 200px;
+    position: relative;
+    display: flex;
+    margin-top: 50px;
   }
-  .red-border{
-    border: 1px solid red;
+
+  #gc-image {
+    width: 200px;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 40%;
   }
-  .green-border{
-    border: 1px solid greenyellow;
+
+  #m2ssd-image {
+    width: 200px;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
   }
-  .blue-border{
-    border: 1px solid cyan;
+
+  #ssd-image {
+    width: 200px;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 30%;
   }
-  .yellow-border{
-    border: 1px solid yellow;
+
+  #case-image {
+    width: 250px;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
   }
-  .grey-border{
-    border: 1px solid grey;
+
+  #cooler-image {
+    width: 250px;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 35%;
   }
+
+  #ps-image {
+    width: 200px;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+  }
+}
+
+.picture-area {
+  width: 100%;
+  display: flex;
+  height: 200px;
+}
+
+.filled-pic-div {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.blank-pic-div {
+  width: 80%;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
+.green-border {
+  border: 1px solid greenyellow;
+}
+
+.blue-border {
+  border: 1px solid cyan;
+}
+
+.yellow-border {
+  border: 1px solid yellow;
+}
+
+.grey-border {
+  border: 1px solid grey;
+}
+
 .component-div {
   background-color: #383838;
   box-shadow: 0px 0px 5px white;
@@ -702,9 +816,11 @@ body{
   border-radius: 10px;
   transition: 1s;
 }
+
 .component-div:hover {
   background-color: #272727;
 }
+
 .component-image {
   width: 100px;
   height: 100px;
