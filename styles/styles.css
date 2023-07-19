@@ -89,7 +89,7 @@ html{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   content: '';
 }
 #welcome-article p{
@@ -280,19 +280,11 @@ html{
       }
   }
   .mainDescriptionTextBlue{
-    color: rgb(255, 255, 255);
     font-size: 200%;
     font-family: 'Alumni Sans Pinstripe', sans-serif;
     text-align: center;
-    position: relative;
-  }
-  .mainDescriptionTextBlue::before {
-    content: '';
-    position: absolute;
-    width: 70px;
-    height: 60px;
-    background-color: #7100fc;
-    z-index: -1;
+    border: 3px solid #7100fc;
+    padding: 5px;
   }
   .contact-form-name {
     font-size: 200%;
